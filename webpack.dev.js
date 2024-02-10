@@ -26,12 +26,8 @@ module.exports = merge(webpackCommon, {
   module: {
     rules: [
       {
-        test: /\.css$/,
-        use: ["style-loader", "css-loader"], // Inject CSS into the DOM
-      },
-      {
-        test: /\.(png|svg|jpg|gif)$/,
-        use: ["file-loader"], // Handles image files
+        test: /\.scss$/,
+        use: ["style-loader", "css-loader", "sass-loader"], // Inject CSS into the DOM
       },
     ],
   },

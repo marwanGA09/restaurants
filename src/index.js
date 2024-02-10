@@ -1,2 +1,2 @@
-alert("hy i'm working");
-console.log("hy adkjfs");
+import "./style.scss";
+import "./template.html";

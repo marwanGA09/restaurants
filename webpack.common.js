@@ -7,6 +7,10 @@ module.exports = {
         exclude: /node_modules/,
         use: ["babel-loader"], // Transpile JavaScript using Babel
       },
+      {
+        test: /\.html$/,
+        use: ["html-loader"], // both style and html  process img inside it
+      },
     ],
   },
 };
