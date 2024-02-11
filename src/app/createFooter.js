@@ -1,19 +1,16 @@
 import { Footer } from "./footer";
 import { contentCreator } from "./content.creator.js";
 
-console.log(contentCreator("Our restraint is ...", "p", "left-header"));
 const footerContainer = Footer.footerContainer();
 const divCon = [];
 for (let i = 0; i < 3; i++) divCon.push(document.createElement("div"));
-
-console.log(divCon);
 
 divCon[0].appendChild(
   contentCreator("Our restraint is ...", "h2", "left-header")
 );
 divCon[0].appendChild(
   contentCreator(
-    "lorem lorem lorem lorem lorem lorem lorem lorem lorej lorem lorem lore lorem ldore l jeo",
+    "Transport yourself to the heart of Ethiopia at Addis Spice. We look forward to welcoming you and sharing the flavors and hospitality of Ethiopia with you!",
     "p",
     "footer__description"
   )
@@ -44,5 +41,4 @@ divCon.forEach((div) => {
   footerContainer.appendChild(div);
 });
 
-console.log(footerContainer);
 export const footerElement = footerContainer;
