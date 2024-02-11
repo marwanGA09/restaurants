@@ -1,14 +1,12 @@
 import { contentCreator } from "../content.creator";
 
 class Contact {
-  static createChief(imgSrc) {
+  static createChief(imgSrc, name, gmail) {
     const container = document.createElement("div");
     container.classList.add("chief");
+    container.appendChild(contentCreator(`Chief ${name}`, "h6", "chief__name"));
     container.appendChild(
-      contentCreator("Chief Yohanis B", "h6", "chief__name")
-    );
-    container.appendChild(
-      contentCreator("gmail: <a >YohanisB32@gamil.com</a>", "p", "chief__email")
+      contentCreator(`gmail: <a >${gmail}</a>`, "p", "chief__email")
     );
     const img = document.createElement("img");
     img.src = imgSrc;
@@ -40,5 +38,13 @@ class Contact {
 }
 
 import img from "./../../imgs/shiro.jpg";
-export const chief = Contact.createChief(img);
+
+export const chiefContainer = document.createElement("div");
+chiefContainer.classList.add("chief-container");
+chiefContainer.appendChild(
+  Contact.createChief(img, "Yordanos Alemayehu", "yordanosalemayehu@gmail.com")
+);
+chiefContainer.appendChild(
+  Contact.createChief(img, "Zahra Ahmed ", "zahraahmed@gmail.com")
+);
 export const location = Contact.location(img);

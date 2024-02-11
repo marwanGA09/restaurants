@@ -6,7 +6,7 @@ const webpackCommon = require("./webpack.common");
 
 module.exports = merge(webpackCommon, {
   mode: "development",
-  devtool: "eval-source-map", // Provides source maps for better debugging experience
+  devtool: "inline-source-map", // Provides source maps for better debugging experience
 
   output: {
     filename: "bundle.js",

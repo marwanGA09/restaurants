@@ -65,8 +65,12 @@ img {
 
 .feature {
   width: 75vw;
-  height: 80vh;
   padding: 15rem 2rem;
-  display: grid;
-  grid-template-columns: 25rem 25rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+
+  .card {
+    width: 30rem;
+  }
 }

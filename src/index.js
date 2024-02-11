@@ -13,10 +13,9 @@ buttons.forEach((bt) => {
 
 import { homeContainer, featureContainer } from "./app/homeUtils/homeCreator";
 import { testimony } from "./app/homeUtils/testimonyCreator";
-import { createMenuCard } from "./app/menuUtilis/createMenu";
 
-import img from "./imgs/shiro.jpg";
-import { chief, location } from "./app/contactUtils/createUtils";
+import { chiefContainer, location } from "./app/contactUtils/createUtils";
+import { menuContainer } from "./app/menuUtilis/menu";
 
 container.appendChild(homeContainer);
 container.appendChild(featureContainer);
@@ -32,10 +31,10 @@ buttons.forEach((bt) => {
       container.appendChild(testimony);
       container.appendChild(footerElement);
     } else if (target === "menu") {
-      container.appendChild(createMenuCard(img));
+      container.appendChild(menuContainer);
       container.appendChild(footerElement);
     } else if (target === "contact") {
-      container.appendChild(chief);
+      container.appendChild(chiefContainer);
       container.appendChild(location);
       container.appendChild(footerElement);
     }

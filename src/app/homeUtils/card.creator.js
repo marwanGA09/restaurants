@@ -1,4 +1,4 @@
-import { contentCreator } from "./content.creator";
+import { contentCreator } from "../content.creator";
 export function cardCreator(imgSource, heading, main) {
   const card = document.createElement("div");
   card.classList.add("card");

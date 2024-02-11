@@ -1,4 +1,4 @@
-import { contentCreator } from "./content.creator";
+import { contentCreator } from "../content.creator";
 export const homeContainer = document.createElement("div");
 homeContainer.classList.add("home");
 const homeHeading = contentCreator(
@@ -20,7 +20,7 @@ homeContainer.appendChild(homeHeading);
 homeContainer.appendChild(homeSubHeading);
 homeContainer.appendChild(homeIntro);
 
-import img from "./../imgs/shiro.jpg";
+import img from "./../../imgs/shiro.jpg";
 import { cardCreator } from "./card.creator";
 
 export const featureContainer = document.createElement("div");
@@ -30,5 +30,27 @@ featureContainer.appendChild(
     img,
     "Addis Spice - Authentic Ethiopian Cuisine",
     "At Addis Spice, we are committed to providing an authentic Ethiopian dining experience that transports our guests to the vibrant streets of Addis Ababa. Our restaurant is more than just a place to eat; it's a celebration of Ethiopian culture, flavors, and hospitality."
+  )
+);
+featureContainer.appendChild(
+  cardCreator(
+    img,
+    "Rich Cultural Experience",
+    "We offer more than just delicious food; we provide a rich cultural experience. From the traditional Ethiopian music playing in the background to the authentic decor adorning our walls, every aspect of our restaurant immerses guests in the vibrant culture of Ethiopia"
+  )
+);
+
+featureContainer.appendChild(
+  cardCreator(
+    img,
+    "Family Atmosphere",
+    "Our restaurant is a place where families come together to share meals and create memories. We believe in the importance of fostering a warm and welcoming atmosphere where guests feel like part of our extended family. Whether you're dining with loved ones or enjoying a meal alone, you'll always feel at home at Addis Spice."
+  )
+);
+featureContainer.appendChild(
+  cardCreator(
+    img,
+    "Community Connection",
+    "Addis Spice is deeply rooted in the local community, and we're proud to support local artisans, musicians, and businesses. We strive to create opportunities for collaboration and celebration within the community, whether through hosting cultural events or sourcing ingredients from local farmers and suppliers."
   )
 );
