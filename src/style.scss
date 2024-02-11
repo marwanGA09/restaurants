@@ -11,6 +11,12 @@
 body {
   font-size: 1.6rem;
 }
+
+img {
+  width: 10rem;
+  height: 10rem;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -35,4 +41,32 @@ body {
     width: 7rem;
     height: 3rem;
   }
+}
+
+.footer {
+  margin-top: 20rem;
+  width: 75vw;
+  background-color: antiquewhite;
+  display: flex;
+  gap: 3rem;
+  padding: 4rem 2rem;
+
+  div:nth-child(2),
+  div:nth-child(3) {
+    width: 32%;
+  }
+}
+
+.home {
+  width: 75vw;
+  height: 80vh;
+  padding: 15rem 2rem;
+}
+
+.feature {
+  width: 75vw;
+  height: 80vh;
+  padding: 15rem 2rem;
+  display: grid;
+  grid-template-columns: 25rem 25rem;
 }
