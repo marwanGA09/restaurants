@@ -47,10 +47,3 @@ featureContainer.appendChild(
     "Our restaurant is a place where families come together to share meals and create memories. We believe in the importance of fostering a warm and welcoming atmosphere where guests feel like part of our extended family. Whether you're dining with loved ones or enjoying a meal alone, you'll always feel at home at Addis Spice."
   )
 );
-featureContainer.appendChild(
-  cardCreator(
-    img,
-    "Community Connection",
-    "Addis Spice is deeply rooted in the local community, and we're proud to support local artisans, musicians, and businesses. We strive to create opportunities for collaboration and celebration within the community, whether through hosting cultural events or sourcing ingredients from local farmers and suppliers."
-  )
-);
