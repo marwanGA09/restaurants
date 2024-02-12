@@ -42,6 +42,7 @@ menuContainer.appendChild(
     tibs,
     "Tibs",
     "Beef, lamb, or chicken sautéed with onions, peppers, garlic, and spices.",
-    "Classic Ethiopian dish featuring tender meat (beef, lamb, or chicken) sautéed with onions, peppers, garlic, and a medley of spices. Bursting with flavor and served sizzling hot, it's a satisfying choice for any meal."
+    "Classic Ethiopian dish featuring tender meat (beef, lamb, or chicken) sautéed with onions, peppers, garlic, and a medley of spices. Bursting with flavor and served sizzling hot, it's a satisfying choice for any meal.",
+    "60"
   )
 );
