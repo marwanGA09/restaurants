@@ -17,8 +17,9 @@ import { testimony } from "./app/homeUtils/testimonyCreator";
 import { chiefContainer, location } from "./app/contactUtils/createUtils";
 import { menuContainer } from "./app/menuUtilis/menu";
 
-container.appendChild(chiefContainer);
-container.appendChild(location);
+container.appendChild(homeContainer);
+container.appendChild(featureContainer);
+container.appendChild(testimony);
 container.appendChild(footerElement);
 buttons.forEach((bt) => {
   bt.addEventListener("click", (ev) => {

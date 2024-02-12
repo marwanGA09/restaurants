@@ -6,7 +6,7 @@ const divCon = [];
 for (let i = 0; i < 3; i++) divCon.push(document.createElement("div"));
 
 divCon[0].appendChild(
-  contentCreator("Our restraint is ...", "h2", "left-header")
+  contentCreator("Our restaurant is ...", "h2", "left-header")
 );
 divCon[0].appendChild(
   contentCreator(

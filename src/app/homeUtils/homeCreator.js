@@ -12,7 +12,7 @@ const homeSubHeading = contentCreator(
   "home__sub-heading"
 );
 const homeIntro = contentCreator(
-  "Addis Spice brings the rich flavors and vibrant culture of Ethiopia to [City/Town]. Our restaurant is a celebration of traditional Ethiopian cuisine, where authentic recipes and warm hospitality come together to create a memorable dining experience. Whether you're new to Ethiopian food or a seasoned enthusiast, we invite you to join us on a culinary journey through the flavors of Ethiopia.",
+  "Addis Spice brings the rich flavors and vibrant culture of Ethiopia to Addis Ababa. Our restaurant is a celebration of traditional Ethiopian cuisine, where authentic recipes and warm hospitality come together to create a memorable dining experience. Whether you're new to Ethiopian food or a seasoned enthusiast, we invite you to join us on a culinary journey through the flavors of Ethiopia.",
   "p",
   "home__intro"
 );

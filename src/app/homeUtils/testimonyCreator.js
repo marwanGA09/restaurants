@@ -6,7 +6,7 @@ testimony.classList.add("testimony");
 testimony.appendChild(
   cardCreatorTestimony(
     img,
-    "Addis Spice transported me to Ethiopia right here in [City/Town]. The aroma of the spices, the warmth of the injera, and the friendly staff made dining here an unforgettable experience!",
+    "Addis Spice transported me to Ethiopia right here in Addis Ababa. The aroma of the spices, the warmth of the injera, and the friendly staff made dining here an unforgettable experience!",
     "Yassin Gabon"
   )
 );
@@ -20,7 +20,7 @@ testimony.appendChild(
 testimony.appendChild(
   cardCreatorTestimony(
     img,
-    "Addis Spice is a gem in [City/Town]. The authenticity of the cuisine paired with the welcoming ambiance made me feel like I was back in Ethiopia. Highly recommend for anyone craving a taste of Ethiopia!",
+    "Addis Spice is a gem in Addis Ababa. The authenticity of the cuisine paired with the welcoming ambiance made me feel like I was back in Ethiopia. Highly recommend for anyone craving a taste of Ethiopia!",
     "Angelina "
   )
 );
