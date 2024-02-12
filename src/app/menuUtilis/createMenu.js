@@ -14,11 +14,11 @@ export function createMenuCard(
   menuCard.appendChild(img);
   menuCard.appendChild(contentCreator(foodName, "h2", "menu__name"));
   menuCard.appendChild(
-    contentCreator(`Ingredients: ${ingredients}`, "h4", "menu__ingredients")
+    contentCreator(`Ingredients: ${ingredients}`, "p", "menu__ingredients")
   );
   menuCard.appendChild(contentCreator(description, "p", "menu__description"));
   menuCard.appendChild(
-    contentCreator(`Price <span>$${price}</span>`, "p", "menu__price")
+    contentCreator(`Price $<span>${price}</span>`, "p", "menu__price")
   );
   return menuCard;
 }

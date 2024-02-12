@@ -4,9 +4,9 @@ class Contact {
   static createChief(imgSrc, name, gmail) {
     const container = document.createElement("div");
     container.classList.add("chief");
-    container.appendChild(contentCreator(`Chief ${name}`, "h6", "chief__name"));
+    container.appendChild(contentCreator(`Chief ${name}`, "h4", "chief__name"));
     container.appendChild(
-      contentCreator(`gmail: <a >${gmail}</a>`, "p", "chief__email")
+      contentCreator(`Gmail: <a >${gmail}</a>`, "p", "chief__email")
     );
     const img = document.createElement("img");
     img.src = imgSrc;
@@ -20,7 +20,9 @@ class Contact {
     const img = document.createElement("img");
     img.src = imgSrc;
     container.appendChild(img);
-    container.appendChild(contentCreator("Address", "h4", "address"));
+    container.appendChild(
+      contentCreator("Welcome to Addis Spice", "h2", "name")
+    );
     container.appendChild(
       contentCreator(
         "Addis Ababa, Bole michael, road number 2321/a",
@@ -28,10 +30,11 @@ class Contact {
         "street"
       )
     );
-    container.appendChild(contentCreator("Subscribe", "button", "subscribe"));
+    container.appendChild(contentCreator("Send", "button", "send"));
     const textArea = contentCreator("", "textarea", "text-area");
     textArea.cols = 65;
     textArea.rows = 10;
+    textArea.placeholder = "Add your comment here";
     container.appendChild(textArea);
     return container;
   }
