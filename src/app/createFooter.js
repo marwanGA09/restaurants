@@ -16,7 +16,7 @@ divCon[0].appendChild(
   )
 );
 
-divCon[1].appendChild(contentCreator("contact", "h4", "contact-us"));
+divCon[1].appendChild(contentCreator("Contact", "h4", "contact-us"));
 divCon[1].appendChild(
   contentCreator("Phone: <span>+251924554506</span>", "p", "footer__phone")
 );

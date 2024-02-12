@@ -43,11 +43,18 @@ class Contact {
 export const chiefContainer = document.createElement("div");
 chiefContainer.classList.add("chief-container");
 
-import img from "./../../imgs/chief1.jpg";
+import chief1 from "./../../imgs/chief1.jpg";
 chiefContainer.appendChild(
-  Contact.createChief(img, "Yordanos Alemayehu", "yordanosalemayehu@gmail.com")
+  Contact.createChief(
+    chief1,
+    "Yordanos Alemayehu",
+    "yordanosalemayehu@gmail.com"
+  )
 );
+import chief2 from "./../../imgs/chief2.jpg";
 chiefContainer.appendChild(
-  Contact.createChief(img, "Zahra Ahmed ", "zahraahmed@gmail.com")
+  Contact.createChief(chief2, "Zahra Ahmed ", "zahraahmed@gmail.com")
 );
-export const location = Contact.location(img);
+
+import map from "./../../imgs/map.jpeg";
+export const location = Contact.location(map);
