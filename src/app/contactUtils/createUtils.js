@@ -40,10 +40,10 @@ class Contact {
   }
 }
 
-import img from "./../../imgs/shiro.jpg";
-
 export const chiefContainer = document.createElement("div");
 chiefContainer.classList.add("chief-container");
+
+import img from "./../../imgs/chief1.jpg";
 chiefContainer.appendChild(
   Contact.createChief(img, "Yordanos Alemayehu", "yordanosalemayehu@gmail.com")
 );

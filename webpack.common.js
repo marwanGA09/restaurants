@@ -12,7 +12,7 @@ module.exports = {
         use: ["html-loader"], // both style and html  process img inside it
       },
       {
-        test: /\.(jpg|jpeg|png|gif|svg)$/i,
+        test: /\.(jpg|jpeg|png|gif|svg|webp)$/i,
         type: "asset/resource", // Inject CSS into the DOM
       },
     ],
